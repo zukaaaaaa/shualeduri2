@@ -1,0 +1,212 @@
+@media (width > 768px){
+    .main1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile{
+        display: none;
+    }
+    
+    .tablet{
+        display: block;
+        margin-left: -43px;
+    }
+    .main1text{
+        z-index: 10;
+        margin-left: -50px;
+        row-gap: 48px;
+    }
+    .dp{
+        display: none;
+    }
+    
+
+    h1{
+        width: 330px;
+        font-size: 70px;
+        line-height: 65px;
+    }
+    h2{
+        width: 339px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .mobilemg{
+        display: none;
+    }
+    .tabimg{
+        display: block;
+    }
+    .images{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        row-gap: 11px;
+        grid-template-areas: "pirveli meore meore"
+                                "mesame mesame meotxe"
+                                    "mesame mesame mexute";
+    }
+    
+    .text1{
+        grid-area: pirveli;
+        margin-right: 68px;
+    }
+    h3{
+        width: 223px;
+        color: black;
+        font-size: 50px;
+        line-height: 45px;
+    }
+    h4{
+        width: 223px;
+        color: grey;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .imagemain{
+        grid-area: meore;
+    }
+    .image2{
+        grid-area: mesame;
+    }
+    .image3{
+        grid-area: meotxe;
+    }
+    .text2{
+        grid-area: mexute;
+        width: 280px;
+        height: 396px;
+        flex-shrink: 0;
+    }
+    h5{
+        width: 223px;
+        color:white;
+        font-size: 50px;
+        line-height: 45px;
+    }
+    h6{
+        width: 223px;
+        color: white;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    footer{
+        height: 216px;
+    }
+    .footertext{
+        display: flex;
+        flex-direction: row;
+        column-gap: 90px;
+    }
+    p{
+        width: 281px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .tablet{
+        animation: updown infinite 5s linear; 
+    }
+    
+  
+    
+}
+
+
+
+
+
+
+@media (width > 1440px){
+    .nothing{
+        display: flex;
+        width: 450px;
+        height: 799px;
+        flex-shrink: 0;
+        background: var(--Almost-Black, #151515);
+    }
+    .main1img{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        margin-left: -210px;
+        }
+    .desktop{
+        display: flex;
+    }
+    .tabimg{
+        display: none;
+    }
+    h3{
+        width: 350px;
+    }
+    h4{
+        width: 350px;
+    }
+    .txt2{
+        width: 445px;
+        height: 377px;
+        flex-shrink: 0;
+    }
+    h5{
+        width: 350px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+    h6{
+        width: 350px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .images{
+        row-gap: 30px;
+        column-gap: 30px;
+    }   
+    .txt1{
+        margin-right: 98px;
+    }
+    .tablet{
+        display: none;
+    }
+    .dp{
+        display: block;
+    }
+    h1{
+        font-size: 96px;
+        line-height: 88px;
+        width: 450px;
+        margin-left: -780px;
+        mix-blend-mode:difference;
+        color: white;
+    }
+    h2{
+        width: 350px;
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: -220px;
+        margin-bottom: 14px;
+    }
+    .fboxtxt{
+        margin-top: -100px;
+    }
+    .footertxt{
+        column-gap: 190px;
+    }
+    .deskmobile{
+        display: flex;
+    }
+    b{
+        width: 430px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    footer{
+        height: 244px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footermob{
+        display: none;
+    }
+}
